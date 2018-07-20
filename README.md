@@ -1,4 +1,4 @@
-# SpringAutowiringWithModes
+# SpringAutowiringWithAllModes
 * we use Autowiring to connect object refrences to the IOC beans without using these in spring xml
 ```xml
 	- <property>
