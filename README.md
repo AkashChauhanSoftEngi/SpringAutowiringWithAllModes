@@ -1,16 +1,18 @@
 # SpringAutowiringWithModes
 * we use Autowiring to connect object refrences to the IOC beans without using these in spring xml
 ```xml
-- <property>
-- <constructor-arg>
+	- <property>
+	- <constructor-arg>
 ```
 * Autowiring can be achieved using these in spring xml file {Reference: https://www.youtube.com/watch?v=suiEGbKf21g&t=2s}
+```xml
 	- autowire="byName"
 	- autowire="byType"
 	- autowire="constructor"
 	- autowire="autodetect"
 	- autowire="no"
 	- autowire="default"
+```
 
 * Autowiring using byName
 ```xml
