@@ -51,12 +51,14 @@
 ```
 
 * Autowiring using by autodetect
+  - priority: 1-constructor, then 2-byType
 ```xml
 	<bean id="areabeatwo" class="com.java.spring.Area" autowire="autodetect">
 	</bean>
 ```
 
 * Autowiring using by no or default {No Autowiring}
+  - Explicitly have to add references
 ```xml
 	<bean id="dimentionbean" class="com.java.spring.Dimention" autowire="no">
 		<property name="pointA" ref="pointA"></property>
